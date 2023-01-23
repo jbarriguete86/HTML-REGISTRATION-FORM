@@ -11,14 +11,14 @@
 
 <body>
     <h1>Registration form</h1>
-    <h3>Please fill out this form with the required information</h3>
+    <p>Please fill out this form with the required information</p>
     <div>
         <form action="" method="get" class="registration-form">
             <div class="registration-form">
-                <div class="first-questions">
+                <section class="first-questions">
                     <div class="questions">
                         <label for="first-name">Enter Your First Name:</label>
-                        <input type="text" name="first-name" id="first-name" >
+                        <input type="text" name="first-name" id="first-name">
                     </div>
                     <div class="questions"><label for="last-name">Enter Your Last Name:</label>
                         <input type="text" name="last-name" id="last-name">
@@ -29,33 +29,33 @@
                     <div class="questions"><label for="password">Create a New Password:</label>
                         <input type="text" name="password" id="password">
                     </div>
-                </div>
-
+                </section>
                 <hr>
 
 
-                <div class="second-questions">
+                <section class="second-questions">
                     <div class="questions">
-                        <input type="radio" id="personal-account" name="accounts"> 
+                        <input type="radio" id="personal-account" name="accounts">
                         <label for="personal-accounts">Personal Account</label>
                     </div>
                     <div class="questions">
-                        <input type="radio" id="business-account" name="accounts"> 
+                        <input type="radio" id="business-account" name="accounts">
                         <label for="business-accounts">Business Account</label>
                     </div>
                     <div class="questions">
-                        <input type="checkbox" required>
-                        <label for="terms">I accept the <a class="terms-link" href="https://www.freecodecamp.org/news/terms-of-service/">terms and
+                        <input type="checkbox" id="terms">
+                        <label for="terms">I accept the <a class="terms-link"
+                                href="https://www.freecodecamp.org/news/terms-of-service/">terms and
                                 conditions</a></label>
                     </div>
-                </div>
+                </section>
 
                 <hr>
 
-                <div class="third-questions">
-                    <div class="questions"> 
+                <section class="third-questions">
+                    <div class="questions">
                         <label for="profile">Upload a profile picture:</label>
-                        <input type="file" id="profile" name="profile" placeholder="No file chosen"> 
+                        <input type="file" id="profile" name="profile" placeholder="No file chosen">
                     </div>
                     <div class="questions">
                         <label for="age">Input our age (years):</label>
@@ -63,15 +63,24 @@
                     </div>
                     <div class="questions">
                         <label for="hear-about">How did you hear about us?</label>
-                        <select name="hear-about" id="hear-about" placeholder="No file chosen">
+                        <select name="hear-about" id="hear-about">
+                            <option value="select">(Select one)</option>
                             <option value="news">FreeCodecamp News</option>
                             <option value="youtube">FreeCodecamp YouTube Channel</option>
                             <option value="forum">FreeCodecamp Forum</option>
                             <option value="other">Other</option>
                         </select>
                     </div>
-                </div>
+                    <div class="questions">
+                        <label for="bio">Provide a bio:</label>
+                        <textarea name="bio" id="bio" placeholder="I like coding on the beach..."></textarea>
+                        <retype="text" name="bio" id="bio">
+                    </div>
+                </section>
 
+                <div class="btn-section">
+                    <button> Submitt</button>
+                </div>
             </div>
         </form>
     </div>

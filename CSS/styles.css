@@ -20,21 +20,21 @@ hr {
     margin: auto;
 }
 
+input {
+    display: block;
+    width: 100%;
+    background-color: rgb(12, 2, 26);
+    border: none;
+    height: 25px;
+    margin: 10px 0 4px;
+
+}
+
 /*-----------FIRST SECTION -------------*/
 
 .first-questions .questions {
     margin: auto;
     text-align: left;
-}
-
-#first-name, #last-name, #email, #password {
-    display: block;
-    width: 100%;
-    background-color: rgb(12, 2, 26);
-    border: none;
-    height: 20px;
-    margin: 10px 0 4px;
-
 }
 
 /*-----------SECOND SECTION -------------*/
@@ -44,6 +44,17 @@ hr {
 
 .second-questions .questions {
     margin-bottom: 10px;
+}
+
+#personal-account, #business-account, #terms {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.second-questions label {
+    padding-left: 10px;
 }
 
 .terms-link {
@@ -56,4 +67,37 @@ hr {
 
 .terms-link:active {
     color:white;
+}
+
+/*----------THIRD SECTION -------------*/
+
+select {
+    width: 100%;
+}
+
+textarea {
+    width:100%;
+    background-color: rgb(12, 2, 26);
+    border:  none;
+}
+
+.third-questions {
+    text-align: left;
+}
+
+/*----------THIRD SECTION -------------*/
+
+.btn-section {
+    padding-top: 45px;
+
+    
+}
+
+button {
+    width: 55%;
+    height: 35px;
+    font-size: medium;
+    background-color: rgba(169, 169, 169, 0.25);
+    color: white;
+    border-color: white;
 }
