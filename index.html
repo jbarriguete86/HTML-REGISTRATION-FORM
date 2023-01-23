@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <h1>Registration form</h1>
+    <h3>Please fill out this form with the required information</h3>
+    <div>
+        <form action="" method="get" class="registration-form">
+            <div class="registration-form">
+                <div class="first-questions">
+                    <div class="questions">
+                        <label for="first-name">Enter Your First Name:</label>
+                        <input type="text" name="first-name" id="first-name" >
+                    </div>
+                    <div class="questions"><label for="last-name">Enter Your Last Name:</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+                    <div class="questions"><label for="email">Enter your email:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="questions"><label for="password">Create a New Password:</label>
+                        <input type="text" name="password" id="password">
+                    </div>
+                </div>
+
+                <hr>
+
+
+                <div class="second-questions">
+                    <div class="questions">
+                        <input type="radio" id="personal-account" name="accounts"> 
+                        <label for="personal-accounts">Personal Account</label>
+                    </div>
+                    <div class="questions">
+                        <input type="radio" id="business-account" name="accounts"> 
+                        <label for="business-accounts">Business Account</label>
+                    </div>
+                    <div class="questions">
+                        <input type="checkbox" required>
+                        <label for="terms">I accept the <a class="terms-link" href="https://www.freecodecamp.org/news/terms-of-service/">terms and
+                                conditions</a></label>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="third-questions">
+                    <div class="questions"> 
+                        <label for="profile">Upload a profile picture:</label>
+                        <input type="file" id="profile" name="profile" placeholder="No file chosen"> 
+                    </div>
+                    <div class="questions">
+                        <label for="age">Input our age (years):</label>
+                        <input type="number" name="age" id="age">
+                    </div>
+                    <div class="questions">
+                        <label for="hear-about">How did you hear about us?</label>
+                        <select name="hear-about" id="hear-about" placeholder="No file chosen">
+                            <option value="news">FreeCodecamp News</option>
+                            <option value="youtube">FreeCodecamp YouTube Channel</option>
+                            <option value="forum">FreeCodecamp Forum</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

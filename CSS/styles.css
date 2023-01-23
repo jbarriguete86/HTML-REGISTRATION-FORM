@@ -1,0 +1,59 @@
+/*-----------------------MAJOR CHANGES -----------------*/
+
+body {
+    text-align: center;
+    background-color: rgb(29, 1, 29);
+    color: white;
+
+}
+
+hr {
+    margin: 35px 0;
+    height: 2px;
+    border-color: rgb(49, 49, 49);
+    background-color: rgb(49, 49, 49);
+}
+
+
+.registration-form {
+    width:50%;
+    margin: auto;
+}
+
+/*-----------FIRST SECTION -------------*/
+
+.first-questions .questions {
+    margin: auto;
+    text-align: left;
+}
+
+#first-name, #last-name, #email, #password {
+    display: block;
+    width: 100%;
+    background-color: rgb(12, 2, 26);
+    border: none;
+    height: 20px;
+    margin: 10px 0 4px;
+
+}
+
+/*-----------SECOND SECTION -------------*/
+.second-questions {
+    text-align: left;
+}
+
+.second-questions .questions {
+    margin-bottom: 10px;
+}
+
+.terms-link {
+    color: white;
+}
+
+.terms-link:visited {
+    color: wihte;
+}
+
+.terms-link:active {
+    color:white;
+}
